@@ -1,7 +1,25 @@
 .a-block {
     display: block;
+    align-self: center;
 }
 
-.center {
+.padding10px {
+    padding: 10px;
+}
 
+.registration {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;    
+}
+
+body {        
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/background.jpg);
 }
