@@ -5,9 +5,11 @@ go 1.21.3
 require (
 	github.com/gin-gonic/gin v1.10.0
 	ip/ip v0.0.0-00010101000000-000000000000
+	pages/pages v0.0.0-00010101000000-000000000000
 )
 
 require (
+	gamewebserver/handleerror v0.0.0-00010101000000-000000000000 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
@@ -37,3 +39,7 @@ require (
 )
 
 replace ip/ip => ./ip
+
+replace pages/pages => ./pages
+
+replace gamewebserver/handleerror => ./handleerror
